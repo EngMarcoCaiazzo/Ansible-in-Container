@@ -5,11 +5,9 @@
 # Version  1.0
 #
 
-
+# this is a comment
 # pull base image
 FROM alpine:3.6
-
-MAINTAINER William Yeh <william.pjyeh@gmail.com>
 
 
 RUN echo "===> Installing sudo to emulate normal OS behavior..."  && \
